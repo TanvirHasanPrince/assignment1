@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Salsa", "Lato", sans-serif;
+  width: 1680px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.flex {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.primary-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #ff5959;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+/* Banner CSS Start */
+
+.banner {
+  background-image: url(./Images/banner-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_items {
+  flex-direction: row;
+  padding: 300px 0;
+  text-align: center;
+}
+
+/* Banner CSS END */
+
+/* Donate Today CSS Start */
+.donate_today {
+  margin-top: 10px;
+  padding: 50px 0;
+}
+
+.donate_today h2 {
+  color: black;
+  text-align: center;
+}
+
+.donate_today p {
+  text-align: center;
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.donate_items_middle_part_items {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 0 25% 0 25%;
+  text-align: center;
+}
+
+.donate_items_middle_part h1 {
+  color: #707070;
+  font-size: 30px;
+}
+
+.donate_amounts {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px 5px;
+  margin: 0px 5px;
+  width: 25%;
+}
+
+.donate_items_middle_part_item_2 {
+  border: 2px solid #ff8a8a;
+  background-color: #ffeeee;
+}
+
+.donate_items_middle_part_item_2 h1 {
+  color: #ff8a8a;
+}
+
+.donate_items_input_part {
+  text-align: center;
+}
+
+.donate_items_input_part input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid#dadada;
+  text-align: center;
+}
+
+.donate_items_input_part input:focus {
+  outline: none !important;
+}
+/* Donate Today CSS End */
+
+/* Donate Plan CSS Start */
+.donate_plan {
+  margin-top: 0px;
+  padding: 0px 0;
+}
+
+.donate_plan_upper_part h2 {
+  color: black;
+  text-align: center;
+}
+
+.donate_plan_upper_part p {
+  text-align: center;
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.donate_plan_lower_part {
+}
+
+.donate_plan_lower_part_items {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate_plan_lower_part_items img {
+}
+
+.donate_plan_lower_part_items h3 {
+  color: black;
+}
+
+.donate_plan_lower_part_items p {
+  color: black;
+}
+
+.donate_plan_lower_part_item-1 {
+  text-align: center;
+  background-color: #edf5f6;
+  padding: 20px 10px;
+  margin: 0 25px 0 25px;
+}
+
+.donate_plan_lower_part_item-2 {
+  text-align: center;
+  background-color: #ffeeee;
+  padding: 20px 10px;
+  margin: 0 25px 0 25px;
+}
+.donate_plan_lower_part_item-3 {
+  text-align: center;
+  background-color: #fff4d6;
+  padding: 20px 10px;
+  margin: 0 25px 0 25px;
+}
+/* Donate Plan End  */
+
+/* Donation Depend section starts */
+.donation_depend {
+}
+.donation_depend_items {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px 40px;
+}
+.donation_depend_left_side {
+  padding: 0 5% 0 0;
+  width: 45%;
+  text-align: center;
+}
+.donation_depend_left_side h2 {
+  color: black;
+  font-weight: 600;
+}
+.donation_depend_left_side p {
+}
+
+.donation_depend_right_side {
+  width: 60%;
+}
+.donation_depend_right_side img {
+  width: 100%;
+  padding: 50px 0;
+}
+/* Donation Depend section End */
+
+/* Creative Section Start */
+.creative_section h2 {
+  color: black;
+  text-align: center;
+}
+
+.payment-methods {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.payment-method_item {
+  width: 16.5%;
+  text-align: center;
+}
+.payment-methods img {
+  width: 40%;
+}
+/* Creative Section End */
+
+/* Start of get my Updates */
+
+.get_my_updates {
+  margin-top: 30px;
+}
+.get_my_updates_items_upper_item h2 {
+  color: black;
+  text-align: center;
+}
+
+.get_my_updates_items_upper_item p {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.get_my_updates_items_lower_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_my_updates_items_lower_item_box {
+  margin: 0 auto;
+  width: 60%;
+  padding: 50px 20px;
+  border-radius: 5px;
+  background: #fff4d6;
+  text-align: center;
+}
+
+/* .get_my_updates_items_lower_item_box input{
+       padding: 15.5px 89px;
+    margin-right: -3px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5%;
+    border: none !important;
+} */
+
+.get_my_updates_items_lower_item_box input {
+  font-size: 18px;
+  color: #000;
+  padding: 15.25px 78px;
+  background-color: rgb(217, 217, 217);
+  border: none !important;
+  outline: none;
+}
+
+.get_my_updates_items_lower_item_box button {
+  text-decoration: none;
+  padding: 19px 43px;
+  color: #fff;
+  background-color: #ff5959;
+  margin-left: -6px;
+  border: none !important;
+}
+/* End of get my updates */
+
+/* Footer Start */
+footer {
+ background-color: black;
+ margin-top: 80px !important;
+ padding: 20px 0 80px 0;
+}
+
+footer h3{
+ font-family: 'Dancing Script', cursive;
+ color: #ff5959;
+ text-align: center;
+ margin-bottom: 15px;
+ font-weight: 700;
+}
+
+footer p {
+ color: #fff;
+ font-size: 12px;
+ text-align: center;
+}
+/* Footer End */
