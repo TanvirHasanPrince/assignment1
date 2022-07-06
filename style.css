@@ -49,11 +49,11 @@ h3 {
 /* Banner CSS Start */
 
 .banner {
-  background: linear-gradient( to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(./Images/banner-img.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url(./Images/banner-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .banner_items {
@@ -80,6 +80,7 @@ h3 {
   color: black;
   width: 70%;
   margin: 0 auto;
+  font-size: 15px;
 }
 
 .donate_items_middle_part_items {
@@ -145,6 +146,7 @@ h3 {
   color: black;
   width: 70%;
   margin: 0 auto;
+  font-size: 15px;
 }
 
 .donate_plan_lower_part {
@@ -208,6 +210,7 @@ h3 {
   font-weight: 600;
 }
 .donation_depend_left_side p {
+  font-size: 15px;
 }
 
 .donation_depend_right_side {
@@ -318,7 +321,11 @@ footer h3 {
 
 footer p {
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
+}
+
+p {
+  font-size: 20px !important;
 }
 /* Footer End */
